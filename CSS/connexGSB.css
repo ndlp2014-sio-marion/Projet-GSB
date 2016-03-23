@@ -1,0 +1,189 @@
+/*blanc jaune, noir*/
+
+html, body { 
+height: 100%;
+padding:0; margin:0;
+background-image: url('dandelion-111853_1920.jpg');
+background-attachment:fixed;
+color:white;
+/*color: Black;*/
+font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+background-attachment: fixed; /* Le fond restera fixe */
+background-size: cover;
+background-position: center;
+
+}
+
+
+a {/* permet de mettre en forme les boutons*/
+display: inline-block;
+margin: 10px;
+background: black;
+padding: 6px 25px;
+font-size: 0.8em;
+letter-spacing: 0.125em;			
+text-transform: uppercase;
+border-radius: 3px;
+color: white;
+text-decoration: none;
+transition: all .3s;
+}
+
+
+
+@font-face {
+    font-family:Verdana;
+	
+}
+
+h1{
+color: black;
+font-family: Verdana, sans-serif;
+
+}
+
+p{
+color: rgb(255,255,255);
+font-family: Verdana, sans-serif;
+margin-left:43%;
+margin-top:0.5%;
+}
+
+header{
+	background:white;
+	top:0;
+	left:0;
+	width:100%;
+	height:7%;
+	position:fixed; 
+	
+}
+a.back {
+background: none;
+color: #FFF;
+padding: 0; margin: 0;
+font-size: 0.75em;
+border-bottom: 1px solid rgba(255,255,255,.3);
+}
+
+
+a:hover,
+a:focus {
+background: white;
+color:black;
+
+transition: all 1s;
+}
+
+
+submit:hover{
+color: red;
+
+}
+
+
+
+
+
+
+
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+/* zocial */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+}
+
+
+
+
+h2 {
+  color:rgba(255,255,255,.8);
+  margin-left:12px;
+}
+
+
+
+form {
+  position:relative;
+  margin: 50px auto;
+  margin-top:15%;
+  width: 380px;
+  height: auto;
+}
+
+input {
+  padding: 16px;
+  border-radius:7px;
+  border:0px;
+  background: rgba(255,255,255,.6);
+  display: block;
+  margin: 15px;
+  width: 300px;  
+  color:white;
+  font-size:18px;
+  height: 54px;
+}
+
+input:focus {
+  outline-color: rgba(0,0,0,0);
+  background: rgba(255,255,255,.95);
+  color: black;
+}
+
+button:hover{
+background: white;
+color:black;
+}
+
+
+
+.inputUserIcon {
+  position:absolute;
+  top:68px;
+  right: 80px;
+  color:white;
+}
+
+.inputPassIcon {
+  position:absolute;
+  top:136px;
+  right: 80px;
+  color:white;
+}
+
+input::-webkit-input-placeholder {
+  color: white;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: black;
+}
+
+button {
+  
+  margin: 10px 10px 150px 20px;
+  height: 50px;
+  width: 150px;
+  border: 0px;
+  background: black;
+  border-radius:7px;
+  padding: 10px;
+  color:white;
+  font-size:22px;
+  transition: all .3s;
+}
+
+
+
+}

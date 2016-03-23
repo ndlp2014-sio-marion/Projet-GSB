@@ -1,0 +1,219 @@
+/*blanc jaune, noir*/
+
+html, body { 
+height: 100%;
+padding:0; margin:0;
+
+color: black;
+font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+background-image: url("dandelion-111853_1920.jpg");
+background-attachment: fixed; /* Le fond restera fixe */
+background-size: cover;
+background-position: center;
+
+}
+
+
+a {/* permet de mettre en forme les boutons*/
+display: inline-block;
+margin: 10px;
+background: black;
+padding: 6px 25px;
+font-size: 0.8em;
+letter-spacing: 0.125em;			
+text-transform: uppercase;
+border-radius: 5px;
+color: white;
+text-decoration: none;
+transition: all .3s;
+
+
+}
+header{
+	background:white;
+	top:0;
+	left:0;
+	width:100%;
+	height:7%;
+	position:fixed; 
+	
+}
+
+tr,td{
+
+padding:0px;
+}
+
+
+
+.part { 
+display: flex;
+flex-direction: column;
+justify-content: top;
+align-items: center;
+min-height: 100%;
+padding: 20px;
+}
+
+h1,h2{
+color: black;
+
+font-family: Verdana, sans-serif;
+text-align: center;
+
+}
+
+p{
+color: rgb(255,255,255);
+font-family: Verdana, sans-serif;
+margin-left:10%;
+margin-top:0.5%;
+}
+#renseigner{
+position:absolute;
+top:20%;
+margin-top:3%;
+right:50%;
+font-size: 1.9em;
+margin-left:12%;
+
+}
+#listLib{
+
+position:absolute;
+top:20%;
+margin-top:3%;
+left:20%;
+font-size: 1.9em;
+
+
+}
+#rensModif{
+
+position:absolute;
+top:20%;
+margin-top:3%;
+left:20%;
+font-size: 1.9em;
+
+
+}
+#rensDec{
+
+position:absolute;
+top:20%;
+margin-top:3%;
+left:2%;
+font-size: 1.9em;
+
+
+}
+
+#frais{
+position:absolute;
+top:20%;
+margin-top:3%;
+right:50%;
+font-size: 1.9em;
+margin-left:12%;
+
+}
+#mois{
+position:absolute;
+top:20%;
+margin-top:3%;
+right:50%;
+font-size: 1.9em;
+margin-left:12%;
+}
+#type{
+position:absolute;
+top:3%;
+display: inline-block;
+margin: 10px;
+background: black;
+padding: 6px 25px;
+font-size: 0.8em;
+letter-spacing: 0.125em;			
+text-transform: uppercase;
+border-radius: 5px;
+color: white;
+text-decoration: none;
+}
+
+.textarea{
+	margin-left:0%;
+	
+}
+.submit{
+display: inline-block;
+margin: 10px;
+background: black;
+padding: 6px 25px;
+font-size: 0.8em;
+letter-spacing: 0.125em;			
+text-transform: uppercase;
+border-radius: 5px;
+color: white;
+text-decoration: none;
+transition: all .3s;
+}
+
+.reset{
+
+display: inline-block;
+margin: 10px;
+background: black;
+padding: 6px 25px;
+font-size: 0.8em;
+letter-spacing: 0.125em;			
+text-transform: uppercase;
+border-radius: 5px;
+color: white;
+text-decoration: none;
+transition: all .3s;
+}
+input[type="submit"]:hover{
+background: white;
+color:black;
+}
+input[type="submit"]:focus{
+background: white;
+color:black;
+}
+input[type="reset"]:hover{
+background: white;
+color:black;
+}
+input[type="reset"]:focus{
+background: white;
+color:black;
+}
+a.back {
+background: none;
+color: #FFF;
+padding: 0; margin: 0;
+font-size: 0.75em;
+border-bottom: 1px solid rgba(255,255,255,.3);
+}
+
+
+
+
+a:hover,
+a:focus {
+background: white;
+color:black;
+}
+
+
+.bandeau-gauche{
+	height:100%;
+	width:50%;
+	left:0;
+	margin-top:3%;
+	top:0;
+	background: rgba(255,255,255,0.5);
+	position:fixed;
+}
+
