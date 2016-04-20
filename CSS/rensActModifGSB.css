@@ -12,7 +12,15 @@ background-size: cover;
 background-position: center;
 
 }
-
+.bandeau-gauche{
+	height:5000px;
+	width:50%;
+	left:0;
+	margin-top:3%;
+	top:0;
+	background: rgba(255,255,255,0.5);
+	
+}
 
 a {/* permet de mettre en forme les boutons*/
 display: inline-block;
@@ -27,7 +35,28 @@ color: white;
 text-decoration: none;
 transition: all .3s;
 
+}
 
+
+
+
+
+h1,h2{
+color: black;
+font-family: Verdana, sans-serif;
+text-align: center;
+margin-top:5%;
+
+}th{
+background-color:black;
+color:white;
+
+}
+th, td{
+
+padding: 15px;
+text-align:center;
+border-bottom:1px solid #ddd;
 }
 header{
 	background:white;
@@ -39,16 +68,10 @@ header{
 	
 }
 
-
-
-h1,h2{
-	margin-top:1%;
-color: black;
-
-font-family: Verdana, sans-serif;
-text-align: center;
-
+select{
+ border-radius:3px; padding:5px; cursor:pointer;
 }
+
 
 p{
 color: rgb(255,255,255);
@@ -56,40 +79,30 @@ font-family: Verdana, sans-serif;
 margin-left:10%;
 margin-top:0.5%;
 }
-
-input{
-
-
-border-radius:3px; 
-padding:5px;
-margin: 10px;
-
-
+#mois{
+position:absolute;
+top:8%;
+margin-top:5%;
+	font-size:1.1em;
+	color:black;
 }
 
-th{
-background-color:black;
-color:white;
-
+#montant{
+position:absolute;
+top:8%;
+margin-top:20%;
 }
-th, td{
+#rensAct{
+position:absolute;
 
-padding: 15px;
-text-align:center;
-border-bottom:1px solid #ddd;
-}
-
-select{
-
-border-radius:3px; 
-padding:5px;
-margin: 10px;
-
+margin-top:30%;
+	font-size:1.1em;
+	color:black;
 }
 
 #type{
 position:absolute;
-top:10%;
+top:20%;
 /*color:black;*/
 display: inline-block;
 margin: 10px;
@@ -103,12 +116,16 @@ color: white;
 text-decoration: none;
 }
 
-#consulterAct{
-position:absolute;
+th{
+background-color:black;
+color:white;
 
-margin-top:15%;
-	font-size:1.1em;
-	color:black;
+}
+th, td{
+
+padding: 15px;
+text-align:center;
+border-bottom:1px solid #ddd;
 }
 
 
@@ -166,7 +183,6 @@ border-bottom: 1px solid rgba(255,255,255,.3);
 
 
 
-
 a:hover,
 a:focus {
 background: white;
@@ -174,14 +190,4 @@ color:black;
 }
 
 
-.bandeau-gauche{
-	height:5000px;
-	width:50%;
-	left:0;
-	margin-top:0%;
-	top:0;
-	background: rgba(255,255,255,0.5);
-	height:100%;
-	
-	
-}
+
